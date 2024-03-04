@@ -25,7 +25,7 @@ public class Employee {
     @Column(name = "last_name")
     private String lastName ;
 
-    @Column(name = "email_id" ,nullable = false ,unique = true)
+    @Column(name = "email_id" ,nullable = false ,unique = false)
     private String  email;
 
     @Column(name = "date_of_birth")
@@ -75,9 +75,5 @@ public class Employee {
     @Temporal(TemporalType.DATE)
     private Date expirationDate;
 
-    @Column(name = "cvv")
-    //@NotNull
-    @Size(min = 3, max = 4)
-    private String cvv;
 
 }

@@ -25,8 +25,7 @@ public class EmployeeMapper {
                 employee.getPostalAddress(),
                 employee.getBankName(),
                 employee.getAccountNumber(),
-                employee.getExpirationDate(),
-                employee.getCvv()
+                employee.getExpirationDate()
         );
 
     }
@@ -50,8 +49,7 @@ public class EmployeeMapper {
                 employeeDto.getPostalAddress(),
                 employeeDto.getBankName(),
                 employeeDto.getAccountNumber(),
-                employeeDto.getExpirationDate(),
-                employeeDto.getCvv()
+                employeeDto.getExpirationDate()
         );
     }
 }

@@ -49,6 +49,22 @@ public class EmployeeServiceImp implements EmployeeService{
         employee.setFirstName(updateEmployee.getFirstName());
         employee.setLastName(updateEmployee.getLastName());
         employee.setEmail(updateEmployee.getEmail());
+        employee.setDateOfBirth(updateEmployee.getDateOfBirth());
+        employee.setSocialSecurityCode(updateEmployee.getSocialSecurityCode());
+        employee.setGender(updateEmployee.getGender());
+        employee.setSocialStatus(updateEmployee.getSocialStatus());
+        employee.setAddress(updateEmployee.getAddress());
+        employee.setCountry(updateEmployee.getCountry());
+        employee.setRegion(updateEmployee.getRegion());
+        employee.setCity(updateEmployee.getCity());
+        employee.setNumberRoute(updateEmployee.getNumberRoute());
+        employee.setPostalCode(updateEmployee.getPostalCode());
+        employee.setPhoneNumber(updateEmployee.getPhoneNumber());
+        employee.setPostalAddress(updateEmployee.getPostalAddress());
+        employee.setBankName(updateEmployee.getBankName());
+        employee.setAccountNumber(updateEmployee.getAccountNumber());
+        employee.setExpirationDate(updateEmployee.getExpirationDate());
+
         Employee updateEmployeeObj = employeeRepository.save(employee);
 
 

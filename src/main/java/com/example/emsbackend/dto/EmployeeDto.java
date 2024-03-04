@@ -36,6 +36,5 @@ public class EmployeeDto {
     private String accountNumber;
     @Temporal(TemporalType.DATE)
     private Date expirationDate;
-    @Size(min = 3, max = 4)
-    private String cvv;
+
 }
