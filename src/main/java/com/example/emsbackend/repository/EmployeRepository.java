@@ -1,10 +1,10 @@
 package com.example.emsbackend.repository;
 
-import com.example.emsbackend.entity.Employee;
+import com.example.emsbackend.entity.Employe;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-
-public interface EmployeeRepository extends JpaRepository<Employee,Long> {
+@Repository
+public interface EmployeRepository  extends JpaRepository<Employe,Long> {
 
 }
